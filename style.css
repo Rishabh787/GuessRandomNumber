@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main-box-style {
+    border: 3px solid rgba(30, 10, 212, 0.829);
+    width: 400px;
+    padding: 5px;
+    border-radius: 22px;
+    margin: auto;
+    margin-bottom: 22px;
+}
+.second-box-style label,input,button {
+    display: block;
+    width: 100%;
+}
+.second-box-style {
+    padding: 5px;
+}
+button {
+    margin-top: 4px;
+    background-color: #e129b0be;
+    border-color:rgb(47, 0, 255);
+    border-radius: 20px;
+    padding: 12px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.heading {
+    text-align: center;
+    color:#e129b1;
+    
+}
+input{
+    border-radius: 20px;
+    padding: 12px;
+}
+label {
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+span {
+    color:#e129b1;
+}
+
+#random-number-container {
+    width: 500px;
+    /* display: none; */
+}
+#name-number-button {
+    font-size: 17px;
+}
