@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Random number</title>
+</head>
+<body>
+    <div id="input-box-container" class="main-box-style">
+        <div id="input-box-second" class="second-box-style">
+            <h2 class="heading">Enter your name </h2>
+            <label for="user-name">Your name :</label>
+            <input type="text" id="user-name" class="user-input-style">
+            <button type="submit" id="name-button" class="style-button">Submit</button>
+        </div>
+    </div>
+
+    <div id="random-number-container" class="main-box-style">
+        <div id="randum-box-second" class="second-box-style">
+            <h2 class="random-heading">Guess the random number <span id="getting-user-name" class="name-span"></span></h2> 
+            <label for="user-input">Enter the number :</label>
+            <input type="number" id="user-input" class="user-input-style">
+            <button type="submit" id="name-number-button" class="style-button">
+                CHECK 😍
+            </button>
+            <p id="after-guess-number">Pls choose numbers smaller than 100</p>
+            <p id="para-text"><span id="moves"></span></p>
+            <p id="third-statement-after-winGame"></p>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
