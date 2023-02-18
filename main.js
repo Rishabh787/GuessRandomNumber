@@ -27,8 +27,8 @@ submitButton.addEventListener("click", function () {
 let countMove = 1;
 
 
-let move = 3;
-let orginMove = 3;
+let move = 10;
+let orginMove = 10;
 allMoves.innerHTML = `You have only totally ${move} move to win this match`
 
 checkAction.addEventListener("click", function () {
